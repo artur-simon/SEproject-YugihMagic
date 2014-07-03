@@ -2,6 +2,7 @@ package modelo;
 
 import java.io.InputStream;
 import java.io.ObjectOutputStream;
+import java.net.Socket;
 
 public class Conector implements Hoster{
 	private InputStream in;
